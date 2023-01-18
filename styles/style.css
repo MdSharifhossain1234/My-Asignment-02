@@ -20,14 +20,24 @@ border-radius: 8px;
  }
 
 
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 100px;
+}
 
+nav li{
+    list-style: none;
+    margin-left: 25px
+}
 
 
 
  nav ul {
      display: flex;
+     
 
-     text-decoration: none;
+    align-items: center;
 
 
  }
