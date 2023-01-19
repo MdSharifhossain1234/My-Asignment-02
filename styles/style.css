@@ -311,6 +311,13 @@
 
  /* media query styles */
 
- @media only screen  {
+ /* mobile devics */
+
+ @media only screen and (max-width:688)  {
+
+    .header-container,.header-description{
+        flex-direction: column;
+    }
     
- }
+    }
+ 
